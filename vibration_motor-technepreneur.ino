@@ -2,8 +2,8 @@
 #include<Wire.h>//I2C library
 
 /* Declaration of pins*/  
-const int motorPin = 3; // pin that the vibrationmotor is attached to
-const int thresh=100;
+const int motorPin = 3; // pin that the digital vibration motor
+
 void setup() {
  pinMode(motorPin, OUTPUT);
     Serial.begin(9600);
